@@ -42,7 +42,7 @@ void RecebeDados(const uint8_t *mac, const uint8_t *incomingData, int len) {
     if (Buffer[i] == null) {
 
       Buffer[i] = myData.R;
-      Serial.print("Valor inserido na posição %dº do Buffer:   ", i);
+      Serial.print("Valor inserido na %dº posição do Buffer:   ", i);
       Serial.println(Buffer[i]);
       break;
     }
